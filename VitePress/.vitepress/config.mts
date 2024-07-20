@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/lua5.4-manual-zh/lua.ico' }]],
+  head: [['link', { rel: 'icon', href: '/lua.ico' }]],
   title: "Lua 5.4 中文参考手册",
   description: "《Lua5.4参考手册》 译自lua官方《Lua 5.4 Reference Manual》",
   themeConfig: {
@@ -153,7 +153,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/atom-l/lua5.4-manual-zh' }
+      { icon: 'github', link: 'https://github.com/iamxiaojianzheng/lua5.4-manual-zh' }
     ],
 
     logo: '/lua.ico',
@@ -166,5 +166,5 @@ export default defineConfig({
     }
   },
   outDir: '../docs',
-  base: '/lua5.4-manual-zh/'
+  // base: '/lua5.4-manual-zh/'
 })
