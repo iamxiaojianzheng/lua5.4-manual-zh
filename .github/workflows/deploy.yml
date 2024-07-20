@@ -34,10 +34,10 @@ jobs:
           cache: npm # 或 pnpm / yarn
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile # 或 pnpm install / yarn install / bun install
+        run: cd VitePress && pnpm install # 或 pnpm install / yarn install / bun install
 
       - name: Build
-        run: pnpm docs:build
+        run: cd VitePress && pnpm docs:build
 
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v3
