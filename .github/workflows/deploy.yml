@@ -32,6 +32,7 @@ jobs:
         with:
           node-version: 20
           cache: yarn # 或 pnpm / yarn
+          cache-dependency-path: "./VitePress/yarn.lock"
 
       - name: Install dependencies
         run: cd VitePress && yarn install # 或 pnpm install / yarn install / bun install
