@@ -165,6 +165,6 @@ export default defineConfig({
       }
     }
   },
-  outDir: '../docs',
+  // outDir: '../docs',
   // base: '/lua5.4-manual-zh/'
 })
