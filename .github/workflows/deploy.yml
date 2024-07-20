@@ -31,7 +31,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm # 或 pnpm / yarn
+          cache: yarn # 或 pnpm / yarn
 
       - name: Install dependencies
         run: cd VitePress && yarn install # 或 pnpm install / yarn install / bun install
